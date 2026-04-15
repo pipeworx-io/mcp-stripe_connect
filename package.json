@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-stripe_connect",
+  "version": "0.1.0",
+  "description": "Stripe MCP Pack — read-only access to Stripe data via API key.",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "stripe_connect"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-stripe_connect"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
