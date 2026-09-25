@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.pipeworx-io/stripe_connect",
-  "title": "stripe_connect",
+  "title": "Stripe_connect",
   "description": "Stripe MCP Pack — read-only access to Stripe data via API key.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "websiteUrl": "https://pipeworx.io/packs/stripe_connect",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-stripe_connect",
