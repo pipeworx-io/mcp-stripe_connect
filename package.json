@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-stripe_connect",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Stripe MCP Pack — read-only access to Stripe data via API key.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-stripe_connect": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "stripe_connect"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-stripe_connect.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/stripe_connect",
   "pipeworx": {
-    "sourceHash": "v1-62956c82d52e9e7d029975847479e8327a886c476bf68845561d6e5b832a57e5",
-    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
+    "mode": "gateway",
+    "slug": "stripe_connect",
+    "gatewaySlug": "stripe_connect",
+    "sourceHash": "v1-7192c8e65a797b8fdcb3486a312e0fa6c6701f325afca8e3b68005977b897265",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }
