@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-stripe_connect",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Stripe MCP Pack — read-only access to Stripe data via API key.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "stripe_connect",
     "gatewaySlug": "stripe_connect",
-    "sourceHash": "v1-7192c8e65a797b8fdcb3486a312e0fa6c6701f325afca8e3b68005977b897265",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-9dd28112e928ff1518a1243e863a6039f639075a91fefa903887f3670d8fd827",
+    "sourceCommit": "868e119d526d5409447b7ee2149afba7eb9d2593"
   }
 }
